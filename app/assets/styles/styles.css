@@ -9,6 +9,8 @@
 @import 'base/_global';
 @import 'modules/_btn';
 @import 'modules/_row';
+@import 'modules/_section-title';
+@import 'modules/_feature-item';
 
 body {
     font-family: 'Roboto', sans-serif;

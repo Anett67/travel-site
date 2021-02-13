@@ -3,11 +3,14 @@
 
     &--gutters {
         margin-right: -65px;;
-    }
+    } 
 
     &--gutters > div{
         padding-right: 65px;
-        box-sizing: border-box;
+    }
+
+    &--gutters-large{
+        padding-right: -100px;
     }
 
     &__b-margin-until-medium{
@@ -15,6 +18,10 @@
     }
 
     @mixin atMedium {
+
+        &--gutters-large > div{
+            padding-right: 100px;
+        }
 
         &__b-margin-until-medium{
             margin-bottom: 0;
@@ -27,6 +34,11 @@
 
         &__medium4--larger{
             width: 37%;
+        }
+
+        &__medium6{
+            float: left;
+            width: 50%;
         }
 
         &__medium8{
