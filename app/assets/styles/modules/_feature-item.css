@@ -3,7 +3,7 @@
     padding-bottom: 2.5rem;
 
     @mixin atSmall {
-        /* position: relative; */
+        position: relative;
         padding-left: 94px;
     }
 
